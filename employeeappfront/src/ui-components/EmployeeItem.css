@@ -1,0 +1,12 @@
+.employeeform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+    padding: 20%;
+}
+.employeeform .form-field {
+    margin-bottom: 20px;
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+.employee-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 5px;
+  padding: 0; /* reduce padding */
+  margin: 0; /* reduce margin */
+}
+
+.MuiCard-root {
+  width: 100%; /* cards take up full width of container */
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  box-shadow: teal !important ;
+}
+
+.MuiCardContent-root {
+  color: rgb(0, 0, 0); 
+}
